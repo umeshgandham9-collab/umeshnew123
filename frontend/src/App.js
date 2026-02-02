@@ -74,7 +74,7 @@ function App() {
   }, [particles.length]);
 
   return (
-    <Router basename="/umeshloveharik">
+    <Router basename="/">
       <div className="min-h-screen relative" onClick={handleClick}>
         {/* Dark Flow Background */}
         <div className="dark-flow-bg" />
