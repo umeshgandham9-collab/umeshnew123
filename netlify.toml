@@ -1,6 +1,6 @@
 [build]
   publish = "frontend/build"
-  command = "cd frontend && npm run build && cp ../index.html ../404.html ../main.*.js ../main.*.css build/"
+  command = "cd frontend && npm ci && npm run build && cp ../index.html ../404.html ../main.*.js ../main.*.css build/"
 
 [build.environment]
   NODE_VERSION = "18"
